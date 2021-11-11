@@ -90,7 +90,7 @@ public class HtmlFetcher {
 		) {
 			// TODO Fill in implementation
 			// TODO Don't use HttpsFetcher.fetch(...) here, but the other methods will be handy!
-			throw new UnsupportedOperationException("Not yet implemented.");
+			throw new UnsupportedOperationException("Not yet implemented (" + request.hashCode() + ", " + response.hashCode() + ").");
 		}
 		catch (IOException e) {
 			html = null;
